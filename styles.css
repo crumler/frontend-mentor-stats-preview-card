@@ -81,7 +81,21 @@ span { color: var(--soft-violet); }
 
 @media(min-width: 375px) and (max-width: 800px) {
   .main-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .box-1,
+  .box-2 {
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .stats { flex-direction: column; }
+
+  .stats div {
+    padding: 10px 0;
   }
 
 }
